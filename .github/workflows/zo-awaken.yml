@@ -1,4 +1,4 @@
-name: 🖥️ Zo Computer 保活
+name: Zo Computer-Awaken
 
 on:
   workflow_dispatch:
@@ -51,9 +51,6 @@ jobs:
           sudo apt-get install -y \
             google-chrome-stable \
             xvfb \
-            x11-utils \
-            xdotool \
-            scrot
 
       # ── 6. 安装 Python 依赖 ───────────────────────────────────
       - name: 🐍 安装 Python 依赖
