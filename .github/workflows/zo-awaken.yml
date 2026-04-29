@@ -5,7 +5,7 @@ on:
 
 jobs:
   awaken:
-    name: 🔄 执行保活
+    name: 🔄 执行唤醒
     runs-on: ubuntu-latest
     timeout-minutes: 15
     env:
@@ -58,8 +58,8 @@ jobs:
           pip install seleniumbase
           seleniumbase install uc_driver
 
-      # ── 7. 运行保活脚本 ───────────────────────────────────────
-      - name: 🚀 运行保活脚本
+      # ── 7. 运行唤醒脚本 ───────────────────────────────────────
+      - name: 🚀 运行唤醒脚本
         env:
           PYTHONIOENCODING: utf-8
           ZO_ACCOUNT: ${{ secrets.ZO_ACCOUNT }}
